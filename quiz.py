@@ -2,6 +2,8 @@ from random import randint,choice, shuffle
 class SpørsmålQuiz:
     """klasse for hvert quizspørsmål. Inneholder et riktig svar og andre svaralternativer
     Har en metode for å gi svar og svaralternativer i en tilfeldig rekkefølge giSpørsmål()"""
+
+    #Dette er min fork
     
     def __init__(self, spørsmål:str, fasit:str, svaralternativer:list ) -> None:
         self.spørsmål=spørsmål
